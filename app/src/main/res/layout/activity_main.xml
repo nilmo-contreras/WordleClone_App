@@ -6,13 +6,237 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <LinearLayout
+        android:id="@+id/firstGuess"
+        android:layout_width="390dp"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".09">
+
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondGuess"
+        android:layout_width="390dp"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstGuess"
+        app:layout_constraintVertical_bias="0">
+
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdGuess"
+        android:layout_width="390dp"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondGuess"
+        app:layout_constraintVertical_bias="0">
+
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourthGuess"
+        android:layout_width="390dp"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdGuess"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+
+        <TextView
+            android:background="@drawable/letter_border"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="55sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/userGuessInput"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/fourthGuess"
+        app:layout_constraintVertical_bias="0.115">
+
+        <EditText
+            android:id="@+id/editTextUserGuess"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Enter 4 Letter Guess"
+            android:inputType="textPersonName"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="118dp"
+            android:layout_height="60dp"
+            android:text="Guess!"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/correctWord"
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="#9BC53D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userGuessInput" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
